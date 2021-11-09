@@ -19,14 +19,14 @@
 /*Variables*/
 
 /* Effets paralax */
-/* .parallax{
+.parallax{
     background-image: url(/assets/image/grenobleimage.jpg);
     min-height: 200vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} */
+}
 /* Effets paralax */
 
 html{
@@ -108,6 +108,7 @@ nav ul li{
 .hero img{
     height: 90%;
     width: 90%;
+    border-radius: 11px;
 }
 .bio{
     width: 250px;
@@ -276,7 +277,7 @@ nav ul li{
     flex-direction: column;
     position: fixed;
     right: 1px;
-    bottom: 50px;
+    bottom: 30%;
 }
 
 .socicon{
@@ -288,4 +289,16 @@ footer{
     padding: 12px;
     text-align: center;
     margin: 20px 0 0;
+}
+
+.scroll-up{
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+.up-arrow{
+    width: 33px;
+    height: 33px;
 }
