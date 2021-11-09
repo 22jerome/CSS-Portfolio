@@ -11,7 +11,7 @@
 on lui demande de calculer la largeur en prenant la hauteur de la carte et la divisant par 1.5 */
 }
 
-/* body {
+body {
     min-height: 100vh;
     background: #212534;
     display: flex;
@@ -20,7 +20,7 @@ on lui demande de calculer la largeur en prenant la hauteur de la carte et la di
     padding-top: 2rem;
     padding-bottom: 2rem;
     box-sizing: border-box;
-} */
+}
 
 .magiccard{
     min-height: 100vh;
@@ -92,11 +92,11 @@ on lui demande de calculer la largeur en prenant la hauteur de la carte et la di
     animation: spin 2.5s linear infinite;
 }
 
-@keyframes spin {
+/* @keyframes spin {
     0% {
       --rotate: 0deg;
     }
     100% {
       --rotate: 360deg;
     }
-}
+} */
